@@ -19,3 +19,18 @@ pip install flet
 Активация для windows
 venv\Scripts\activate
 
+
+deactivate 
+
+python3 -m venv .venv
+
+
+source .venv/bin/activate
+
+
+Уставнока полной библиотеки flet
+pip install flet[all]
+
+
+Уставновка доп библиотеки
+sudo apt install libmpv1
